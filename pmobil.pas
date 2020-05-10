@@ -23,9 +23,9 @@ type
              cicilan       : real;
              lama_kredit   : integer;
              jml_pembelian : integer;
-             dtrans : array[1..5] of TDTrans;
+             dtrans : array[1..50] of TDTrans;
            end;
-  Tarr_trans = array [1..100] of TTrans;         
+  Tarr_trans = array [1..2] of TTrans;         
 
     
 procedure isi_data(var data_mobil:Tarr_mobil);
